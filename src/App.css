@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: "Poppins", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Layout */
+.ant-layout .ant-layout-sider-trigger {
+  background: #797bcf;
+  position: relative;
+  bottom: unset;
+}
+
+.ant-layout-sider {
+  height: 100vh;
+}
+.ant-layout .ant-layout-sider-has-trigger {
+  padding-bottom: 0;
+}
+.ant-layout .ant-layout-sider-children {
+  height: calc(100% - 48px);
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+  overflow: auto;
+}
+.layout_logo {
+  /* width: 70%; */
+  display: block;
+}
+
+.sider_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.outlet_content_wrapper {
+  height: calc(100vh - 100px);
+  overflow: auto;
+  border-radius: 10px;
+  padding: 0 1rem;
+  background: #fff;
+  position: relative;
+}
+
+.table_content {
+  margin-top: 30px;
+}
+
+:where(.css-dev-only-do-not-override-12wtowa).ant-table-wrapper
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > thead
+  > tr
+  > th {
+  border-inline-end: none !important;
+}
+
+:where(.css-dev-only-do-not-override-12wtowa).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-12wtowa).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > td {
+  background: #797bcf;
+  color: #fff;
+}
+/* dashboard css */
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card_data {
+  width: 80%;
+  padding-left: 10px;
+}
+.card_data > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.card {
+  background-color: #f0f2f5;
+  border-radius: 25px;
+  padding: 18px;
+  width: 280px;
+  text-align: center;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 15px 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+.graph_cardContainer {
+  width: 270px;
+}
+.graph_card {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.chart_section {
+  margin: 10px;
+}
+.button-group {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nodata {
+  width: 300px;
+  /* height: 300px; */
+}
+.loader_spin {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}

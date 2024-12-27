@@ -1,0 +1,44 @@
+.login_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_content {
+  width: 80%;
+  height: 72vh;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px #9091b3, 0 2px 4px -2px #9091b3;
+}
+.login_section {
+  width: 100%;
+  display: flex;
+}
+.login_form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* background-color: #797BCF; */
+}
+.login_image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 72vh;
+}
+.login_banner {
+  width: 100%;
+  border-radius:20px;
+}
+.login_formContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_btn {
+  width: 100%;
+}

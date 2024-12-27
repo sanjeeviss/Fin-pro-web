@@ -1,0 +1,26 @@
+.admin_page_header {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-bottom: 1rem;
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin_page_header_title_wrp {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 40px;
+}
+.admin_page_header_extra_wrp {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
